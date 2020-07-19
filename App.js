@@ -1,4 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
+import { SearchBar } from 'react-native-elements';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -7,6 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Ayyyy here's my first edit ahaha</Text>
       <StatusBar style="auto" backgroundColor={""} />
+      <SearchBar />
     </View>
 
   );
